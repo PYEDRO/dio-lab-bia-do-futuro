@@ -77,7 +77,7 @@ CENARIOS = {
     "misto": BASE_DATA / "cenario_misto" / "data",
 }
 
-################### FUNÇÕES AUXILIARES ####################
+#################### FUNÇÕES AUXILIARES ####################
 def _ler_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
